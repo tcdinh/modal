@@ -1,0 +1,9 @@
+<div class="modal" *ngIf='isShown'>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>{{modalMessage}}</p>
+        <button class='cancel-btn' (click)='cancel()'>False</button>
+        <button class='confirm-btn' (click)='confirm()'>True</button>
+      </div>
+</div>
+
